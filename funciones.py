@@ -84,11 +84,11 @@ def existe(polinomio, termino):
     while pol is not None:
         termino_pol = pol.info.termino
         if termino_pol == termino:
-            return pol.info.valor
+            return True
         elif termino_pol is None:
             return False
         else:
-            pol = pol.sig     
+            pol = pol.sig
 
 
     

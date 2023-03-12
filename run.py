@@ -22,12 +22,12 @@ def ejemplo():
     print("\n")
 
     #Restamos ambos terminos
-    print("Polinomio 1 menos polinomio 2:")
+    print("Polinomio 1 más polinomio 2:")
     print(mostrar(sumar(polinomio1, polinomio2)))
     print("\n")
 
     #Dividimos ambos terminos
-    print("Polinomio 1 entre polinomio 2:")
+    print("Polinomio 1 por polinomio 2:")
     print(mostrar(multiplicar(polinomio1, polinomio2)))
     print("\n")
 
@@ -39,6 +39,7 @@ def ejemplo():
     print("\n")
     
     #Vemos si existe 5
+    print("¿Existe el termino 3?:")
     print(existe(polinomio1, 3))
 
 ejemplo()
