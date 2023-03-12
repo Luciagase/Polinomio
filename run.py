@@ -8,9 +8,9 @@ def ejemplo():
     
     #Les añadimos terminos
     agregar_termino(polinomio1, 3, 5)
-    agregar_termino(polinomio2, 3, 1)
+    agregar_termino(polinomio2, 2, 5)
 
-    agregar_termino(polinomio1, 1, 7)
+    agregar_termino(polinomio1, 2, 4)
     agregar_termino(polinomio2, 1, 4)    
 
     #Mostramos los polinomios
@@ -42,9 +42,9 @@ def ejemplo():
     print("\n")
 
     #Eliminamos un termino
-    print("Eliminamos el coeficiente del termino de grado 1:")
+    print("Eliminamos el coeficiente del termino de grado 3:")
     print(mostrar(polinomio1))
-    print(eliminar(polinomio1, 1))
+    print(eliminar(polinomio1, 3))
     print(mostrar(polinomio1))
     print("\n")
     

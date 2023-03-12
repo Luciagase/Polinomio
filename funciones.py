@@ -108,14 +108,11 @@ def eliminar(polinomio, termino):
 
 def existe(polinomio, termino):
     pol = polinomio.termino_mayor
-    while pol is not None:
-        termino_pol = pol.info.termino
-        if termino_pol == termino:
-            return True
-        elif termino_pol is None:
-            return False
-        else:
-            pol = pol.sig
-
-
-    
+    while pol is not None and pol.info.termino != termino:
+        pol = pol.sig
+    if pol is not None and pol.info.termino == 0:
+        return True
+    elif pol is not None and pol.info.termino == termino:
+        return False
+    else:
+        return None
