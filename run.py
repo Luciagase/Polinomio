@@ -21,14 +21,24 @@ def ejemplo():
     print(mostrar(polinomio2))
     print("\n")
 
-    #Restamos ambos terminos
+    #Sumamos ambos terminos
     print("Polinomio 1 más polinomio 2:")
     print(mostrar(sumar(polinomio1, polinomio2)))
     print("\n")
 
-    #Dividimos ambos terminos
+    #Multiplicamos ambos terminos
     print("Polinomio 1 por polinomio 2:")
     print(mostrar(multiplicar(polinomio1, polinomio2)))
+    print("\n")
+
+    #Restamos ambos terminos
+    print("Polinomio 1 menos polinomio 2:")
+    print(mostrar(restar(polinomio1, polinomio2)))
+    print("\n")
+
+    #Dividimos ambos terminos
+    print("Polinomio 1 entre polinomio 2:")
+    print(mostrar(dividir(polinomio1, polinomio2)))
     print("\n")
 
     #Eliminamos un termino
